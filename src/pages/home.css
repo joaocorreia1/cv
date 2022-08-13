@@ -1,0 +1,5 @@
+#profile-picture {
+  border-radius: 50%;
+  border: .2rem solid #333;
+  max-width: 10%;
+}
