@@ -2,22 +2,23 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: #555;
 }
 
 .page {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
-  background-color: #777;
-  height: 100vh;
-  width: 100vw;
+  justify-content: space-between;
 }
 
 #profile-picture {
   border-radius: 50%;
-  border: .2rem solid #333;
-  max-width: 10%;
+  border: 0.2rem solid #333;
+  max-width: 20%;
 }
 
 .site-title {
@@ -25,7 +26,11 @@
 }
 
 .container {
-  height: 82vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
@@ -35,18 +40,22 @@ footer {
   justify-content: center;
   background-color: #333;
   color: #999;
-  height: 10vh;
+  bottom: 0;
+  left: 0;
+  height: 5rem;
+  position: fixed;
+  width: 100%;
 }
 
 .nav {
   background-color: #333;
-  color: #fff;
+  color: #dcdcdc;
   display: flex;
   justify-content: space-between;
   align-items: stretch;
   gap: 2rem;
   padding: 0 1rem;
-  height: 8vh;
+  margin-bottom: 3rem;
 }
 
 .nav ul {
@@ -55,6 +64,7 @@ footer {
   list-style: none;
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .nav a {
@@ -63,11 +73,11 @@ footer {
   height: 100%;
   display: flex;
   align-items: center;
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 .nav li.active {
-  background-color: #777;
+  background-color: #555;
 }
 
 .nav li:hover {

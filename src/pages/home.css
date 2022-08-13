@@ -1,5 +1,23 @@
-#profile-picture {
-  border-radius: 50%;
-  border: .2rem solid #333;
-  max-width: 10%;
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  margin-top: 10rem;
+}
+
+.home h2 {
+  color: #DCDCDC;
+  margin-top: 2rem;
+}
+
+.home p {
+  margin: 2rem 0;
+  color: 	#DCDCDC;
+  max-width: 70rem;
+}
+
+.wellcome {
+  margin-left: 5rem;
 }

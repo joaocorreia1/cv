@@ -1,19 +1,18 @@
 import React from "react";
-import "./about.css";
+import "./about.css"
 
 function About() {
   return (
-    <div className="about-page">
-      <h2 className="title">About</h2>
-      <p className="paragraph">
-        Desenvolvedor web frontend com conhecimento avançado em JavaScript. Gosto de usar React para
-        criar aplicações responsivas e Node para desenvolver o servidor e o banco de dados no
-        backend. Estou cursando Ciência da Computação e sou formado em Administração. Também
-        participei do bootcamp de desenvolvimento full-satck da Labenu. Sou muito observador e
-        prático, posso naturalmente identificar possíveis ganhos. Além disso, sou um profissional
-        curioso e envolvido nos projetos. Recebo facilmente novas demandas e amo trabalhar em
-        equipe. Busco conhecimento e bagagem para chegar ao nível de impactar a vida das pessoas
-        positivamente com meus softwares.
+    <div className="about">
+      <h2>About</h2>
+      <p>
+        Frontend web developer with advanced knowledge of JavaScript. I like to use React to build
+        responsive applications and Node to develop the server and database on the backend. Studying
+        Computer Science and graduated in Business Administration. Also participated in Labenu's
+        full-satck development bootcamp. Very observant and practical, can naturally identify
+        possible gains. In addition, I am a curious professional, involved on the projects. I easily
+        receive new demands and love to work in team. I seek knowledge and expertise to reach the
+        level of positively impacting people's lives with my softwares.
       </p>
     </div>
   );

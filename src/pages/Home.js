@@ -1,13 +1,15 @@
 import React from "react";
+import ProfilePicture from "../components/ProfilePicture";
 import "./home.css";
-import ProfilePicture from "../components/ProfilePicture"
 
 function Home() {
   return (
-    <div className="home-container">
+    <div className="home">
       <ProfilePicture />
-      <h2>Projetos</h2>
-      <div></div>
+      <div className="wellcome">
+        <h2>Wellcome to my CV!</h2>
+        <p>Use the above navbar to navigate throw my history.</p>
+      </div>
     </div>
   );
 }
