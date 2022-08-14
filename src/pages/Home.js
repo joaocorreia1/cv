@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="home">
       <ProfilePicture />
-      <div className="wellcome">
+      <div className="wellcome" id="wellcome">
         <h2>Wellcome to my CV!</h2>
         <p>Use the above navbar to navigate throw my history.</p>
       </div>

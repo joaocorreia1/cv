@@ -1,3 +1,13 @@
+@media (max-width: 600px) {
+  .home {
+    flex-wrap: wrap;
+  }
+  #wellcome {
+    margin: 0;
+    text-align: center;
+  }
+}
+
 .home {
   display: flex;
   align-items: center;
